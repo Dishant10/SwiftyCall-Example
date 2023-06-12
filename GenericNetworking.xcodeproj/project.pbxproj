@@ -11,6 +11,8 @@
 		33FDA4242A2C960D00C3FA79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FDA4232A2C960D00C3FA79 /* ContentView.swift */; };
 		33FDA4262A2C960F00C3FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FDA4252A2C960F00C3FA79 /* Assets.xcassets */; };
 		33FDA4292A2C960F00C3FA79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FDA4282A2C960F00C3FA79 /* Preview Assets.xcassets */; };
+		33FDA4322A2CAA5A00C3FA79 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FDA4312A2CAA5A00C3FA79 /* Joke.swift */; };
+		33FDA4372A2CC0E500C3FA79 /* SwiftyCall in Frameworks */ = {isa = PBXBuildFile; productRef = 33FDA4362A2CC0E500C3FA79 /* SwiftyCall */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		33FDA4232A2C960D00C3FA79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33FDA4252A2C960F00C3FA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33FDA4282A2C960F00C3FA79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33FDA4312A2CAA5A00C3FA79 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33FDA4372A2CC0E500C3FA79 /* SwiftyCall in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +57,7 @@
 			children = (
 				33FDA4212A2C960D00C3FA79 /* GenericNetworkingApp.swift */,
 				33FDA4232A2C960D00C3FA79 /* ContentView.swift */,
+				33FDA4312A2CAA5A00C3FA79 /* Joke.swift */,
 				33FDA4252A2C960F00C3FA79 /* Assets.xcassets */,
 				33FDA4272A2C960F00C3FA79 /* Preview Content */,
 			);
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = GenericNetworking;
+			packageProductDependencies = (
+				33FDA4362A2CC0E500C3FA79 /* SwiftyCall */,
+			);
 			productName = GenericNetworking;
 			productReference = 33FDA41E2A2C960D00C3FA79 /* GenericNetworking.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 33FDA4152A2C960D00C3FA79;
+			packageReferences = (
+				33FDA4352A2CC0E500C3FA79 /* XCRemoteSwiftPackageReference "SwiftyCall" */,
+			);
 			productRefGroup = 33FDA41F2A2C960D00C3FA79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33FDA4242A2C960D00C3FA79 /* ContentView.swift in Sources */,
+				33FDA4322A2CAA5A00C3FA79 /* Joke.swift in Sources */,
 				33FDA4222A2C960D00C3FA79 /* GenericNetworkingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		33FDA4352A2CC0E500C3FA79 /* XCRemoteSwiftPackageReference "SwiftyCall" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Dishant10/SwiftyCall.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33FDA4362A2CC0E500C3FA79 /* SwiftyCall */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33FDA4352A2CC0E500C3FA79 /* XCRemoteSwiftPackageReference "SwiftyCall" */;
+			productName = SwiftyCall;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 33FDA4162A2C960D00C3FA79 /* Project object */;
 }

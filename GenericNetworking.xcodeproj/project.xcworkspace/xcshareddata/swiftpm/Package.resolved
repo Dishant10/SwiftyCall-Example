@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftycall",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Dishant10/SwiftyCall.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "06dd284cb46da1b408428970b23b808cb7e6d964"
+      }
+    }
+  ],
+  "version" : 2
+}
