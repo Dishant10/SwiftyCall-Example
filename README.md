@@ -35,6 +35,11 @@ import SwiftUI
 import SwiftyCall
 ```
 
+
+## License
+
+SwiftyCall is released under the MIT license. See [LICENSE](LICENSE) for details.
+
 ## Video Demo
 
 
@@ -46,3 +51,4 @@ import SwiftyCall
 </br>
 
 ![ezgif com-video-to-gif-2](https://github.com/Dishant10/SwiftyCall/assets/84343829/3061b530-75fa-480c-9d16-cdac0a737990)
+
